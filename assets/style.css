@@ -1,0 +1,152 @@
+body{
+    background: #ffffff;
+    margin: 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/grey.jpg");
+    color: #777777;
+    
+}
+*{
+    border-collapse: separate;
+}
+
+/* First part*/
+.container1{
+    background-color: #FFF;
+    border-bottom: 5px solid #cccccc;
+    position: relative;
+    margin: auto;
+}
+.subcon1{
+    background: #ffffff;
+    text-align: right;
+    height: 100px;
+    line-height: 100px;
+    width: 960px;
+    margin: auto;
+}
+.h01{
+    background: #4aaaa5;
+    color: white;
+    display: inline;
+    float: left;   
+    margin: 0;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+a{
+    color: #777777;
+}
+.container1::after{
+    clear: both;
+    display: block;
+    content: "";
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: #4aaaa5;
+}
+
+/*second part*/
+.container2{
+    height: 80%;
+    padding: 30px;
+}
+.subcon2{
+    background: #ffffff;
+    width: 960px;
+    margin: auto;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    border: 2px #dddddd solid;
+}
+.subcon2 p {
+    line-height: 170%;
+}
+.subcon2 input[type="text"], .subcon2 textarea{
+    width: 100%;
+
+}
+.subcon2 input[type="submit"]{
+    margin-top: 10px;
+    background: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    
+}
+
+.img1{
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+ /* To clear float*/
+ .p2::after{
+    display: block;
+    content: "";
+    clear: both;
+  }
+
+
+  footer{
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+      border-top: 10px teal solid;
+      background:#666666;
+      text-align: center;
+      height: 5%;
+  }
+  h1{
+     font-family: 'Georgia', Times, 'Times New Roman', serif;  
+    
+  }
+  .h02{
+      color: #4aaaa5;
+      border-bottom: 3px #cccccc solid;
+      margin: 0;
+      padding: 20px;
+      padding-left: 0;
+      margin-bottom: 20px;
+  }
+
+  .img2 img{
+      width: 300px;
+      height: 200px;
+      
+  }
+.img2{
+    position: relative;
+      float: left;
+      padding: 10px;
+    
+      
+  }
+  .subimg {
+      margin-left: -10px;
+  }
+.subcon2:after {
+    display: block;
+    content: '';
+    clear: left;
+}
+.img2 div{
+    position: absolute;
+    background: #4aaaa5;
+    width: 300px;
+    text-align: center;
+    bottom: 20px;
+    padding: 10px 0;
+    color: #ffffff;
+
+}
+  
